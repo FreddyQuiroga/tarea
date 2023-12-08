@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav { 
+  display: flex;
+  flex-direction: column;
+}
+.menu{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.enlaces-superior{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 200px;
+}
+li {
+  list-style: none;
+  padding: 10px;
+}
+.menu-2{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding-right: 320px;
+}
+.item-carrito{
+  margin-right: 10px;
+}
+.buscador{ 
+  display: flex;
+  flex-direction: row;
+}
+#buscador{ 
+  height: 18px;
+}
+#boton-buscar{ 
+  height: 22px;
+}
+.menu-4{ 
+  display: flex;
+  flex-direction: row;
+  padding: 0px 120px;
+}
+.texto-logo{
+  border-style: solid;
+}
+.enlaces-inferior{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ justify-content: center;
+}
+#boton-navegador button { 
+  width: 80px;
+  height: 40px;
+
+}
+#boton-navegador { 
+
+  padding: 0px;
+}
+.menu-5{ 
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.nav-enlaces{
+  margin-right: 10px;
+}
+main{
+  padding: 0px 120px;
+}
+.contenido-principal{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+
+}
+.enlaces-principal{ 
+  border-style: groove;
+}
+.enlaces-principal li{ 
+  width: 222px;
+  text-align: center;
+  font-size: large;
+}
+.imagen-principal{
+ flex: 1;
+}
+.noticias{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.imagen-noticia{
+  margin-right: 10px;
+  height: 300px;
+}
+.imagen-noticia img{
+  width: 245px;
+  height: 300px;
+}
+.descripcion-noticia{
+  flex: 1;
+}
+.titulo-social{
+  border-style: solid;
+  margin-bottom: 5px;
+}
+.seccion-productos{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.social-media{
+  
+  width: 248px;
+  margin-right: 10px;
+}
+.productos { 
+  flex: 1;
+
+}
+.like{
+  display: flex;
+  flex-direction: row;
+  margin: 8px 15px;
+
+}
+.logo-producto{
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+}
+.cuerpo-media{ 
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+}
+.amigos-like{
+  border-style: solid;
+  margin: 8px 15px;
+}
+.list-friends{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.list-social{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.list-productos{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.titulo-producto{
+  text-align: center;
+  margin: 10px;
+}
+.decripcion-producto{
+  margin: 10px;
+}
+.texto-producto{
+  margin: 5px;
+}
+.list-productos article{ 
+  /* padding: 30px; */
+  width: 170px;
+  /* margin: 0px 5px; */
+  border-style: solid;
+
+}
+.decripcion-producto{ 
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.botones-producto {
+  display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.botones-producto button{
+ margin: 10px 5px;
+}
+.imagen-producto{ 
+  margin: 10px;
+}
+.texto-footer{ 
+  text-align: center;
+  padding: 30px;
+}
+#fondo{
+background-color: rgb(222, 102, 38);
+}
+.enlaces-principal{
+  background-color: rgb(228, 237, 59);
+}
+.titulo-social{
+  background-color: rgb(250, 25, 25);
+}
+.cuerpo-media{
+  background-color: rgb(248, 102, 79);
+}
+.fondo-body{
+  background: linear-gradient(to bottom, #f23a3a, rgb(200, 200, 0));
+}
+.texto-logo{
+  background-color: rgb(118, 174, 6);
+}
+.center-reloj{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
